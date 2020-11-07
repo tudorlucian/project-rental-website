@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>=</title>
+    <link rel="stylesheet" href="loginstyles.css">
+  </head>
+  <body>
+    <div class="language">
+      <button class="lang">language</button>
+    </div>
+    <header>
+      <div class="logo">logo</div>
+    </header>
+    <div class="login-register">
+      <form>
+        <input type="text" placeholder="Search.." name="search" size="50">
+        <button type="submit"><b class="fa fa-search">Submit</b></button>
+      </form>
+      <button class="login" onclick= " window.open('https:\\www.google.com', '_blank'); return false;">Login/Register</button>
+    </div>
+    <hr>
+      <div class="registration">
+        <br>
+        <h2>Registration form</h2>
+        <br>
+        <form id="registrationForm" class="regForm">
+          <label for ="nume">Nume:</label>
+          <br>
+          <input type="text" id ="nume" required>
+          <br> 
+          <label for ="prenume">Prenume:</label>
+          <br>
+          <input type="text" id="prenume" required>
+          <br>
+          <label for ="country">Country:</label>
+          <br>
+          <select id="country"  name="country">
+            <option value="000" selected="selected">Select Country</option>
+            <option value="001">Romania</option>
+            <option value="002">Italy</option>
+            <option value="003">United States of America</option>
+            <option value="004">Belgium</option>
+            <option value="004">Trinidad Tobago</option>
+            <option value="005">Hungary</option>
+            <option value="006">Ukraine</option>
+            <option value="007">Bulgaria</option>
+            <option value="008">Turkey</option>
+            <option value="009">Spain</option>
+            <option value="010">United Kingdom</option>
+            </select>
+          <br>
+          <label for="email">Email address:</label>
+          <br>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          <br> 
+          <label for ="password">Password:</label>
+          <br>
+          <input type="password" id="parola1" required>
+          <br>
+          <label for ="password">Repeat password:</label>
+          <br>
+          <input type="password" id="parola2" required>
+          <br>
+          <button type="submit"><b id="eokay">Submit</b></button>
+        </form>
+      </div>
+      <script src="login.js"></script> 
+      <hr>
+      <footer>
+        <div class="usual-footer">
+          <ol>
+          <ul><a href= "LocalUnits.html">Local Units</a></ul>
+          <ul><a href= "AreaOperation.html">Service Area</a></ul>
+          <ul><a href= "discounts.html">Discounts</a></ul>
+          <ul><a href= "contact.html">Contact</a></ul>
+        </ol>
+      </div>
+        <div class="usual-footer2">
+        <ol>
+          <ul><a href= "careers.html">Careers</a></ul>
+          <ul><a href= "GDPR.html">Privacy Policy and Confidentiality of Personal Data</a></ul>
+          <ul><a href= "Terms&Conditions.html">Terms and Conditions</a></ul>
+          <ul><a href= "delivery.html">Delivery</a></ul>
+        </ol>
+      </div>
+        <div class="socials">
+          <ul class="socialBtn">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-youtube"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+      
+  </div>
+    </body>
+    </html>

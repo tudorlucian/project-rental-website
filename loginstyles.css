@@ -1,0 +1,56 @@
+.lang{
+    float: right;
+    margin-right:100px;
+    margin-top: -5px;;
+}
+.logo{
+    padding:20px;
+}
+.login-register{
+    padding: 15px;
+    background-color: wheat;
+    flex-basis: 100%;
+    display: flex;
+
+}
+.login{
+    float: right;
+}
+
+
+div.registration{
+    display: block;
+    text-align: center;
+
+}
+
+form { 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+footer{
+    background-color: rgba(2, 184, 184, 0.705);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.socials{
+    float: right;
+    display: inline-flex;
+    list-style: none;
+}
+.socialBtn{
+    display: inline-flex;
+    list-style: none;
+}
+
+.usual-footer{
+    display: block;
+}
+
+.usual-footer2{
+    display: block;
+}

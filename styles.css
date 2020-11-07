@@ -1,0 +1,128 @@
+.lang{
+    float: right;
+    margin-right:100px;
+    margin-top: -5px;;
+}
+.logo{
+    padding:20px;
+}
+.login-register{
+    padding: 15px;
+    background-color: wheat;
+    flex-basis: 100%;
+    display: flex;
+
+}
+.login{
+    float: right;
+}
+.menu2{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: lightcoral;
+    
+}
+.meniu{
+    text-align: center;
+    background-color: rgb(74, 85, 241);
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+}
+.meniu:hover{
+    background: cadetblue;
+    color: darkblue;
+}
+hr{
+    color: red;
+}
+.presentation> h1{
+    display: flex;
+    justify-content: center;
+
+
+}
+.presentation>p{
+    font-size: 20px;
+}
+
+.services{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.customer{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgba(2, 184, 184, 0.705);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.socials{
+    float: right;
+
+}
+.socialBtn li{
+    display: inline-block;
+    display: inline;
+}
+
+.usual-footer{
+    display: block;
+}
+
+.usual-footer2{
+    display: block;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* instagram */
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
+  
+  /* youtube */
+  .fa-youtube {
+    background: #c91919;
+    color: white;
+  }
+
+  .review-us{
+      display: flex;
+      justify-content: center;
+      
+  }
